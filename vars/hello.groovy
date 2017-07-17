@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
-def call(args){
-	sh "echo ${args}"
+def PrintHello(args){
+	print args
 }
 
 
