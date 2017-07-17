@@ -1,7 +1,7 @@
 //src/org/shancang/GetJenkinsEnv.groovy
-package org.shancang
+package org.shancang;
 def GetHome(args){
-	if (args == "prod"){
+	if (${args} == "prod"){
 		echo ${args}
 	}else{
 
